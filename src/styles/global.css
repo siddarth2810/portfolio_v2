@@ -3,8 +3,8 @@
   --bg: #111111;
   --fg: #eeeeee;
   --muted: 215.4 16.3% 46.9%;
-  color: #44415a;
-  background-color: #fdfaf5;
+  color: #e0def4;
+  background-color: #2a273f;
 }
 
 ::selection {
@@ -18,16 +18,18 @@
 }
 
 .about-me-box {
-  background-color: #fdfaf5;
+  background-color: #2a273f;
+  border-color: #f4ede8;
+
 }
 
 .label-heading-box {
-  background-color: #fdfaf5;
+  background-color: #2a273f;
 }
 
 .label-box-fill {
-  border-color: #56526e;
-  background-color: #fdfaf5;
+  border-color: #f4ede8;
+  background-color: #2a273f;
 }
 
 
@@ -52,12 +54,16 @@
 }
 
 a {
-  color: #8839ef;
+  color: #f6c177;
+}
+
+.text-muted {
+  color: #908caa;
 }
 
 a:hover {
-  color: white;
-  background-color: #8839ef;
+  color: #2a273f;
+  background-color: #f6c177;
 }
 
 a::before {
