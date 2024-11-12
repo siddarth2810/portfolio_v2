@@ -10,7 +10,7 @@ const $$ShadedBox = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$ShadedBox;
   const { label } = Astro2.props;
-  return renderTemplate`${maybeRenderHead()}<div class="flex flex-col"> ${label && renderTemplate`<div class="-mb-1 flex flex-col space-y-1.5 p-6 py-0"> <h3 class="text-base font-normal leading-none tracking-tight"> <span class="relative z-10 -mx-2 bg-white px-2"> ${label} </span> </h3> </div>`} <div class="about-me-box relative border-2 border-border-contrast p-3 md:p-6 after:bg-dotted after:absolute after:-bottom-2 after:-right-2 after:left-2 after:top-2 after:-z-10 after:content-['']"> ${renderSlot($$result, $$slots["default"])} </div> </div>`;
+  return renderTemplate`${maybeRenderHead()}<div class="flex flex-col"> ${label && renderTemplate`<div class="-mb-1 flex flex-col space-y-1.5 p-6 py-0"> <h3 class="text-base font-normal leading-none tracking-tight"> <span class="relative z-10 -mx-2 bg-white px-2"> ${label} </span> </h3> </div>`} <div class="about-me-box relative border-2 border-border-contrast p-3 md:p-6 "> ${renderSlot($$result, $$slots["default"])} </div> </div>`;
 }, "/home/siddarth/personal/portfolio_v2/src/components/ui/shaded-box.astro", void 0);
 
 const $$Astro$2 = createAstro();
