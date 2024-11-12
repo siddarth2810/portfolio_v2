@@ -2,18 +2,35 @@
   --border-contrast: 222.2 47.4% 11.2%;
   --bg: #111111;
   --fg: #eeeeee;
-  --muted: 215.4 16.3% 46.9%;;
+  --muted: 215.4 16.3% 46.9%;
+  color: #44415a;
+  background-color: #fdfaf5;
 }
 
 ::selection {
   background-color: hsl(var(--border-contrast));
-  color: white; 
+  color: white;
 }
 
 .muted-image {
   filter: grayscale(70%);
   transition: filter 0.3s ease;
 }
+
+.about-me-box {
+  background-color: #fdfaf5;
+}
+
+.label-heading-box {
+  background-color: #fdfaf5;
+}
+
+.label-box-fill {
+  border-color: #56526e;
+  background-color: #fdfaf5;
+}
+
+
 .muted-image:hover {
   filter: grayscale(0%);
 }
@@ -35,12 +52,12 @@
 }
 
 a {
-  color: theme("colors.blue.500");
+  color: #8839ef;
 }
 
 a:hover {
   color: white;
-  background-color: theme("colors.blue.500");
+  background-color: #8839ef;
 }
 
 a::before {
