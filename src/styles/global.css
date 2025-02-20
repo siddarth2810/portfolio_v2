@@ -4,7 +4,7 @@
   --fg: #eeeeee;
   --muted: 215.4 16.3% 46.9%;
   color: #e0def4;
-  background-color: #2a273f;
+  background-color: #1f1d2e;
 }
 
 ::selection {
@@ -18,18 +18,18 @@
 }
 
 .about-me-box {
-  background-color: #2a273f;
+  background-color: #1f1d2e;
   border-color: #f4ede8;
 
 }
 
 .label-heading-box {
-  background-color: #2a273f;
+  background-color: #1f1d2e;
 }
 
 .label-box-fill {
   border-color: #f4ede8;
-  background-color: #2a273f;
+  background-color: #1f1d2e;
 }
 
 
