@@ -1,15 +1,14 @@
 :root {
-  --border-contrast: #d79921;  /* Yellow, used for selection background */
-  --bg: #fbf1c7;              /* bg0, main light beige background */
-  --fg: #3c3836;              /* fg, dark gray foreground text */
-  --muted: #7c6f64;           /* fg4, muted brown for subdued text */
+  --bg: #FEFAF6;  /* background text */
+  --fg: #535353;  /* content text */             
+  --muted: #803D3B; /* muted text */          
   color: var(--fg);           /* Default text color */
   background-color: var(--bg); /* Default background */
 }
 
 ::selection {
-  background-color: var(--border-contrast); /* Yellow selection background */
-  color: var(--fg);                         /* Dark text for contrast */
+  background-color: var(--border-contrast); 
+  color: var(--fg);                        
 }
 
 .muted-image {
@@ -17,52 +16,21 @@
   transition: filter 0.3s ease;
 }
 
-.about-me-box {
-  background-color: #fbf1c7; /* bg1, slightly darker beige for boxes */
-  border-color: #282828;     
-}
-
-.label-heading-box {
-  border-color: #282828;     
-  background-color: #fbf1c7; /* bg1, consistent with other boxes */
-}
-
-.label-box-fill {
-  border-color: #282828;     
-  background-color: #fbf1c7; /* bg1, beige background */
-}
-
 .muted-image:hover {
   filter: grayscale(0%);
 }
 
-@font-face {
-  font-family: "JetBrains Mono";
-  src: url("/fonts/JetBrainsMono[wght].ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "JetBrains Mono";
-  src: url("/fonts/JetBrainsMono-Italic[wght].ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: italic;
-  font-display: swap;
-}
-
 a {
-  color: #8f3f71; /* purple, for links */
+  color: #8D493A; /* for links */
 }
 
 .text-muted {
-  color: var(--muted); /* Muted brown for subdued text */
+  color: var(--muted); 
 }
 
 a:hover {
-  color: #3c3836;       /* fg, dark text */
-  background-color: #d5c4a1; /* bg2, medium beige for hover background */
+  color: #535353;       /* fg, on hover*/
+  background-color: #F8EDE3;
 }
 
 a::before {
@@ -72,3 +40,4 @@ a::before {
 a::after {
   content: "]"; /* Stylistic brackets around links */
 }
+
