@@ -37,10 +37,6 @@
   filter: grayscale(0%);
 }
 
-a:hover {
-  color: #535353; /* for link hover */
-
-}
 .text-muted {
   color: var(--muted); 
 }

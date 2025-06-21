@@ -5,7 +5,8 @@ const { title, description, links, tech } = Astro.props;
   <!-- TITLE ROW -->
   <div class="flex items-center justify-between">
     <h3 class="font-medium text-tight">
-      <a href={links.repo}>{title}</a>
+		        <a class="text-normal font-medium md:hover:text-primary underline-offset-4 transition duration-150 ease-in-out md:hover:underline"
+			href={links.repo}>{title}</a>
     </h3>
   </div>
 
