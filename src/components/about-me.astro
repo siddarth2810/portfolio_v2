@@ -1,32 +1,44 @@
 ---
-import Link from "./ui/link.astro";
+import socialData from "../constants/socials.json"
+import { Icon } from "astro-icon/components";
+import { RiArrowRightUpLine } from "react-icons/ri";
+
+const socials = socialData
 ---
 
+
 <div>
-    <p class="font-bold text-lg">Siddarth Gundu</p>
-            <span>
-                <Link href="https://github.com/siddarth2810">GitHub</Link>
 
-                <Link href="https://x.com/Siddarth_0910">Twitter</Link>
+		<h1 class="text-primary font-serif text-[2.5rem] tracking-tight">Siddarth Gundu</h1>
+		<div class="socials grid w-fit grid-cols-3 gap-2 pt-2 tracking-tight md:flex md:flex-row md:items-start">
+		{
+			socials.map((social) => (
+				<a
+					href={social.url}
+					target={social.target}
+					rel={social.target === "_blank" ? "noopener noreferrer" : undefined}
+					class="group md:hover:text-primary flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:underline">
+					<Icon name={social.icon} size={14} class="mr-1.5" />
+					<span class="text-sm">{social.name}</span>
+					<RiArrowRightUpLine className="opacity-0 transition-opacity duration-150 md:group-hover:opacity-100" />
+				</a>
+			))
+		}
+	</div>
+	<p class="bio pt-4 text-sm">
+		Hi there, I'm a software dev from Hyderabad who loves to <span
+			class="text-black">build</span> stuff. I spend a significant amount of time <span class="text-black">coding</span> and
+		working on personal projects. I enjoy attending <span class="text-black">tech conferences</span> and geeking out on tech in general.
 
-                <Link href="https://www.linkedin.com/in/siddarth2810"
-                    >LinkedIn</Link
-                >
+	<p class="bio pt-4 text-sm flex">
+            I write tech blogs at
+				<a href="https://dev.to/siddarth2810/" 
+					class="ml-1.5 group md:hover:text-primary flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:underline">
+					Dev.to
+					<RiArrowRightUpLine className="opacity-0 transition-opacity duration-150 md:group-hover:opacity-100" />
+				</a>
 
-                <Link
-                    href="https://drive.google.com/file/d/1kPI5UyNzn2rmwXqVJryC27CKo0obgcs9/view?usp=sharing"   >Resume</Link
+	</p>
+	</p>
 
-                >
-            </span>
-    <p class="pt-4">
-        Hi there! I'm a software developer from Hyderabad, India. I spend a significant amount of time coding and playing with computers.<br> <br>
-        I enjoy attending tech conferences and geeking out on tech in general.
-    </p>
-    <div class="pt-4 flex flex-col gap-2 text-sm">
-        <div>
-            I write tech blogs at <span>
-                <Link href="https://dev.to/siddarth2810/">Dev.to</Link>
-            </span>
-        </div>
-    </div>
 </div>
