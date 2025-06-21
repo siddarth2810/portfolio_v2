@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        jetbrains: ["JetBrains Mono", "monospace"],
+        satoshi: ["satoshi", "sans"],
       },
       colors: {
-        "border-contrast": "hsl(var(--border-contrast) / <alpha-value>)",
+		   primary: 'var(--color-primary)',
         bg: "var(--bg)",
         fg: "var(--fg)",
         muted: "hsl(var(--muted))",
