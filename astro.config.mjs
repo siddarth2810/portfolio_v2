@@ -5,12 +5,11 @@ import tailwind from '@astrojs/tailwind';
 
 import react from '@astrojs/react';
 
-import netlify from '@astrojs/netlify';
 import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), react(), icon()],
-  output: 'server',
-  adapter: netlify()
+  site: 'https://siddarth2810.github.io',
+  base: process.env.NODE_ENV === 'production' ? '/portfolio_v2' : '/',
 });
