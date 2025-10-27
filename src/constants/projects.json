@@ -1,5 +1,14 @@
 [
   {
+    "id": "http-server",
+    "title": "HTTP server",
+    "description": "An implementation of http server from scratch",
+    "tech": ["Go", "Bash"],
+    "links": {
+      "repo": "https://github.com/siddarth2810/http-server"
+    }
+  },
+  {
     "id": "askmydoc",
     "title": "AskMyDoc",
     "description": "A full‑stack AI‑driven PDF QA assistant that interprets user queries and retrieves contextually relevant answers",
@@ -11,7 +20,7 @@
   },
   {
     "id": "blast-box",
-    "title": "Blast‑Box",
+    "title": "Blast Box",
     "description": "A real‑time multiplayer shooting game inspired by diep.io.",
     "tech": ["uWebSockets", "p5.js", "Azure"],
     "links": {
@@ -31,17 +40,6 @@
     }
   },
   {
-    "id": "snippets-safe",
-    "title": "Snippets Safe",
-    "description": "Easy tool designed to efficiently store and organize code snippets.",
-    "hack": "Won Frost Hacks 2024, ₹12,000 prize",
-    "tech": ["React", "MongoDB", "Hugging Face"],
-    "links": {
-      "repo": "https://github.com/siddarth2810/SnippetsSafe",
-      "video": "https://www.youtube.com/embed/dL4a-QIyANA?si=PqqRtYx1Mvape71M"
-    }
-  },
-  {
     "id": "rust-compiler",
     "title": "Compiler",
     "description": "Compiles .teeny files into C, then uses GCC to compile executables.",
@@ -51,4 +49,3 @@
     }
   }
 ]
-
