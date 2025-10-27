@@ -1,13 +1,25 @@
 ---
 const { title, description, links, tech } = Astro.props;
+import { Icon } from "astro-icon/components";
 ---
 <article class="flex flex-col gap-2">
   <!-- TITLE ROW -->
-  <div class="flex items-center justify-between">
+  <div class="flex items-center gap-2">
     <h3 class="font-medium text-tight">
-		        <a class="text-normal font-medium md:hover:text-primary underline-offset-4 transition duration-150 ease-in-out md:hover:underline"
-			href={links.repo}>{title}</a>
+      {title}
     </h3>
+    {links.repo && (
+      <a 
+        href={links.repo}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center text-primary hover:text-secondary transition-colors duration-150"
+        aria-label={`View ${title} on GitHub`}
+      >
+      <Icon name="github" size={14} class="mr-1.5" />
+
+      </a>
+    )}
   </div>
 
   <!-- DESCRIPTION -->
