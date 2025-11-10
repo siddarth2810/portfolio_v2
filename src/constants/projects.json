@@ -14,29 +14,7 @@
     "description": "A full‑stack AI‑driven PDF QA assistant that interprets user queries and retrieves contextually relevant answers",
     "tech": ["LangChain", "FAISS", "Next.js", "FastAPI", "Gen AI"],
     "links": {
-      "repo": "https://github.com/siddarth2810/AskMyDoc_v2",
-      "video": "https://www.youtube.com/embed/2bEsCRoJWOI?si=uVRSxyemsxSgAnMe"
-    }
-  },
-  {
-    "id": "blast-box",
-    "title": "Blast Box",
-    "description": "A real‑time multiplayer shooting game inspired by diep.io.",
-    "tech": ["uWebSockets", "p5.js", "Azure"],
-    "links": {
-      "repo": "https://github.com/siddarth2810/blast-box",
-      "video": "https://www.youtube.com/embed/pZu6XvT-ILk?si=a5i3InftTRfLAqIS "
-    }
-  },
-  {
-    "id": "naash",
-    "title": "NAASH (Not another AI shell)",
-    "description": "An AI powered shell to make your terminal workflow even faster.",
-    "hack": "Won HackThisFall 2024 Virtual, $1000 USD prize",
-    "tech": ["TypeScript", "CLI", "OpenAI API", "GeminiAPI"],
-    "links": {
-      "repo": "https://github.com/siddarth2810/team-gap",
-      "video": "https://www.youtube.com/embed/6xZ1Gxxiu1U?si=x6p0pp4oaSRS8W0c"
+      "repo": "https://github.com/siddarth2810/AskMyDoc_v2"
     }
   },
   {
@@ -46,6 +24,15 @@
     "tech": ["Rust", "GCC", "Bash", "Linux"],
     "links": {
       "repo": "https://github.com/siddarth2810/rust-compiler"
+    }
+  },
+  {
+    "id": "blast-box",
+    "title": "Blast Box",
+    "description": "A real‑time multiplayer shooting game inspired by diep.io.",
+    "tech": ["uWebSockets", "p5.js", "Azure"],
+    "links": {
+      "repo": "https://github.com/siddarth2810/blast-box"
     }
   }
 ]
