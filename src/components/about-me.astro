@@ -10,6 +10,8 @@ const socials = socialData
 <div>
 
 		<h1 class="text-primary font-serif text-[2.5rem] tracking-tight">Siddarth Gundu</h1>
+  	<div class="flex items-center gap-1.5 font-medium tracking-tight">
+	</div>
 		<div class="socials grid w-fit grid-cols-3 gap-2 pt-2 tracking-tight md:flex md:flex-row md:items-start">
 		{
 			socials.map((social) => (
@@ -25,20 +27,18 @@ const socials = socialData
 			))
 		}
 	</div>
-	<p class="bio pt-4 text-sm">
-		Hi there, I'm a software dev from Hyderabad who loves to <span
-			class="text-black">build</span> stuff. I spend a significant amount of time <span class="text-black">coding</span> and
-		working on personal projects. I enjoy attending <span class="text-black">tech conferences</span> and geeking out on tech in general.
-
-	<p class="bio pt-4 text-sm flex">
-            I write tech blogs at
-				<a href="https://dev.to/siddarth2810/" 
-					class="ml-1.5 group md:hover:text-primary flex items-center underline-offset-4 transition duration-150 ease-in-out md:hover:underline">
-					Dev.to
-					<RiArrowRightUpLine className="opacity-0 transition-opacity duration-150 md:group-hover:opacity-100" />
-				</a>
-
-	</p>
-	</p>
+  <p class="text-justify bio pt-4 text-sm">
+  Software engineer focused on <span class="text-black">observability</span>.
+  I enjoy attending tech conferences and geeking out on tech in general.
+  I'm currently contributing to
+  <a
+    href="https://github.com/cortexproject/cortex"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="text-primary hover:underline underline-offset-4"
+  >
+    Cortex metrics
+  </a>.
+</p>
 
 </div>
