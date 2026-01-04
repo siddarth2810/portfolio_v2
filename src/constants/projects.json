@@ -1,38 +1,30 @@
 [
   {
-    "id": "http-server",
-    "title": "HTTP server",
-    "description": "An implementation of http server from scratch",
-    "tech": ["Go", "Bash"],
-    "links": {
-      "repo": "https://github.com/siddarth2810/http-server"
-    }
-  },
-  {
-    "id": "askmydoc",
+    "id": 1,
     "title": "AskMyDoc",
-    "description": "A full‑stack AI‑driven PDF QA assistant that interprets user queries and retrieves contextually relevant answers",
+    "description": "AI‑driven PDF QA assistant that gives contextually relevant answers",
     "tech": ["LangChain", "FAISS", "Next.js", "FastAPI", "Gen AI"],
-    "links": {
-      "repo": "https://github.com/siddarth2810/AskMyDoc_v2"
-    }
+    "link":  "https://github.com/siddarth2810/AskMyDoc_v2"
   },
   {
-    "id": "rust-compiler",
-    "title": "Compiler",
-    "description": "Compiles .teeny files into C, then uses GCC to compile executables.",
-    "tech": ["Rust", "GCC", "Bash", "Linux"],
-    "links": {
-      "repo": "https://github.com/siddarth2810/rust-compiler"
-    }
-  },
-  {
-    "id": "blast-box",
+    "id": 2,
     "title": "Blast Box",
     "description": "A real‑time multiplayer shooting game inspired by diep.io.",
     "tech": ["uWebSockets", "p5.js", "Azure"],
-    "links": {
-      "repo": "https://github.com/siddarth2810/blast-box"
-    }
+    "link":  "https://github.com/siddarth2810/blast-box"
+  },
+  {
+    "id":3,
+    "title": "HTTP server",
+    "description": "A http server built from scratch to understand the internals of HTTP protocol",
+    "tech": ["Go", "Bash"],
+    "link":  "https://github.com/siddarth2810/http-server"
+  },
+  {
+    "id": 4,
+    "title": "Compiler",
+    "description": "Built a small compiler to understand more about Compiler theory",
+    "tech": ["Rust", "GCC", "Bash", "Linux"],
+    "link":  "https://github.com/siddarth2810/rust-compiler"
   }
 ]

@@ -1,33 +1,12 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
 import AboutMe from "../components/about-me.astro";
 import Projects from "../components/projects.astro";
 import Experience from "../components/experience.astro";
-import BottomBlur from "../components/ui/BottomBlur.astro";
-
-import "../styles/global.css";
-
 ---
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content={Astro.generator} />
-        <title>Siddarth Gundu</title>
-    </head>
-    <body>
-        <main
-            class="font-satoshi mx-auto max-w-[760px] overflow-x-hidden px-6 py-24 md:overflow-x-visible"
-        >
-            <div>
-                    <AboutMe />
-                    <Experience />
-                    <Projects />
-
-            </div>
-<BottomBlur />
-        </main>
-    </body>
-</html>
+<Layout title="Siddarth Gundu">
+  <AboutMe />
+  <Experience />
+  <Projects />
+</Layout>

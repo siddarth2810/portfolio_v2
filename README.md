@@ -1,18 +1,16 @@
-# Astro Starter Kit: Minimal
+# portfolio_v2
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Personal portfolio site built with Astro + Tailwind + React islands.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Development
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- Install: `bun install`
+- Dev: `bun run dev`
+- Build: `bun run build`
 
-## 🚀 Project Structure
+## Acknowledgements
 
-Inside of your Astro project, you'll see the following folders and files:
+This project is based on / heavily inspired by:
 
 ```text
 /
